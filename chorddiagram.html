@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"> 
+  </head>
+
+<body>   
+     
+<div class="details">
+             <h1>Cardiovascular <br>diagonsis</h1>
+
+<div id="yearbuttons">
+              <button id="foursix" class="current">cardio</button>
+              <button id="sevennine" class="">cardiovascular</button>
+              <button id="tentwelve" class="">2010-2012</button>
+              <button id="thirteenfiveteen" class="">2013-2015</button>
+</div>
+      <!--This script is to highlight each year button while on it-->
+  <script type="text/javascript">
+                         $('#yearbuttons button').on('click', function(){
+                              $('button.current').removeClass('current');
+                              $(this).addClass('current');
+                         });
+  </script>
+<!--The data comes from FAO Yearbooks on fisheries http://www.fao.org/fishery/publications/yearbooks/en-->
+<!--Created by Luz K. Molina, www.databayou.com-->
+    <div id="legend">
+
+      <table class="table1">
+                <tr>
+          <td bgcolor="#FFFFFF" width="10%">
+                    </td>
+                    <td width="90%"><h3>Cardiovascular Guidelines</h3>
+                     </td>  
+        </tr>
+        <tr>
+          <td bgcolor="#FF00FF" width="10%">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3325449/" target="_blank" href = "#">16575896</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Managing cardiometabolic risk in primary care</h3></td>
+                            </tr>
+                    </table>
+                     </td>  
+        </tr> 
+                <tr>
+          <td bgcolor="#0000FF">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3012210" target="_blank" href = "#">18048474</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>European guidelines on managing adverse effects of medication for ADHD</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#6495ED">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2556074" target="_blank" href = "#">19257889</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Reporting Genetic Results in Research Studies: Summary and Recommendations of an NHLBI Working Group</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#F4A460">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2952401" target="_blank" href = "#">19892750</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>European League Against Rheumatism recommendations for monitoring patients with systemic lupus erythematosus in clinical practice and in observational studies</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#8E8E38">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4975132" target="_blank" href = "#">19898693</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Clinical practice guideline for the prevention, early detection, diagnosis, management and follow up of type 2 diabetes mellitus in adults</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#C6E2FF">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2996543" target="_blank" href = "#">20734234</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>ASCI 2010 standardized practice protocol for cardiac magnetic resonance imaging: a report of the Asian society of cardiovascular imaging cardiac computed tomography and cardiac magnetic resonance imaging guideline working group</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#D8BFD8">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4957476" target="_blank" href = "#">20924794</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>The First European Evidence-based Consensus on Extra-intestinal Manifestations in Inflammatory Bowel Disease</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#97FFFF">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5013107" target="_blank" href = "#">20931289</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Cardiac rehabilitation delivery model for low-resource settings</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#00EEEE">
+                    </td></td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5319462" target="_blank" href = "#">21042924</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>7th Brazilian Guideline of Arterial Hypertension: Chapter 4 - Cardiovascular Risk Stratification</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#03A89E">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4536582" target="_blank" href = "#">22084329</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Expert Panel on Integrated Guidelines for Cardiovascular Health and Risk Reduction in Children and Adolescents: Summary Report</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#66CDAA">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2776560"target="_blank" href = "#">22611605</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Cardiac risk assessment before the use of stimulant medications in children and youth: A joint position statement by the Canadian Paediatric Society, the Canadian Cardiovascular Society, and the Canadian Academy of Child and Adolescent Psychiatry</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#00FF7F">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3695769" target="_blank" href = "#">23634753</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Standardized image interpretation and post processing in cardiovascular magnetic resonance: Society for Cardiovascular Magnetic Resonance (SCMR) Board of Trustees Task Force on Standardized Post Processing</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#800080">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4234715" target="_blank" href = "#">24103764</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Canadian Cardiovascular Harmonized National Guidelines Endeavour (C-CHANGE): 2014 update</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>                
+                <tr>
+          <td bgcolor="#BF3EFF">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3252886" target="_blank" href = "#">25332362</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>ASCI 2010 appropriateness criteria for cardiac magnetic resonance imaging: a report of the Asian Society of Cardiovascular Imaging cardiac computed tomography and cardiac magnetic resonance imaging guideline working group</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#912CEE">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5137383"target="_blank" href = "#">25920443</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>III SBC Guidelines on the Analysis and Issuance of Electrocardiographic Reports - Executive Summary</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#EE82EE">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2662831" target="_blank" href = "#">26614685</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Managing cardiometabolic risk in primary care</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#FFFF00">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3851953"target="_blank" href = "#">27181874</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Managing cardiometabolic risk in primary care</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#FF7256">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3059094" target="_blank" href = "#">27546934</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Managing cardiometabolic risk in primary care</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#FF7F24">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4475456" target="_blank" href = "#">27819383</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Managing cardiometabolic risk in primary care</h3></td>
+                            </tr>
+                    </table>
+                         
+                     </td>  
+        </tr>
+                <tr>
+          <td bgcolor="#FF3030">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2996539" target="_blank" href = "#">27982266</a>
+                    <table class="table2">
+                            <tr>
+                                <td><h3>Managing cardiometabolic risk in primary care</h3></td>
+                            </tr>
+                    </table>
+                     </td>  
+        </tr>
+               
+             </table>
+         </div> 
+       
+</div>
+
+  <div id="chart_placeholder"></div>
+    <script type="text/javascript" src="./chord.js"></script>
+
+
+</body>
+</html>
