@@ -60,9 +60,11 @@ We avoided bar charts because they seemed common and boring. We later realized o
 
 ### Enhancement to the existing chord diagram: 
 
-	A simpler approach of bar-chart was suggested to overcome the problem of understanding the complicated nature of guidelines. We decided not to skip the chord diagram entirely, as they present valuable information for breast cancer guidelines.
-	We proposed to add a hyperlink which displays the distance of one guideline to all the other guidelines. Using bar-chart, you can easily understand and interpret the story.
+<ul>
+<li> A simpler approach of bar-chart was suggested to overcome the problem of understanding the complicated nature of guidelines. We decided not to skip the chord diagram entirely, as they present valuable information for breast cancer guidelines.
 
+<li>We proposed to add a hyperlink which displays the distance of one guideline to all the other guidelines. Using bar-chart, you can easily understand and interpret the story.
+</ul>
 
 ## How Chord diagram and Bar chart work hand in hand:
 
