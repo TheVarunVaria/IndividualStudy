@@ -143,8 +143,14 @@ From this figure, we can say that 2364753, 19257889, 25332362 are closely simila
 Since it becomes difficult to understand what these guidelines actually are. We can view the name of the guideline when we hover the mouse on top of the bar chart.
 
 <img src="Images/15.png" width="50%" />
+
+
 ### Plotting multiple guidelines in the same view:
+
+
 <img src="Images/16.png" width="50%" />
+
+
 ### What it does:
 <ul>
 <li> This view is a relative view. Here we selected one guideline as the base guideline and then you can select/configure the secondary guideline to compare with the primary guideline.
@@ -155,8 +161,9 @@ Since it becomes difficult to understand what these guidelines actually are. We 
 Hand-picking interesting guidelines for comparison
 
 <img src="Images/17.png" width="50%" />
+
+
 ### What it does: 
 We can compare selected guidelines to see the similarity and bucket them together in terms of similarity or dissimilarity.
 From our above example, we can say that 19257889, 23634753, 24103764, 25332362 are conceptually similar since they exhibit high similarity with respect to three base guidelines selected in the view one.
 
-<img src="Images/18.png" width="50%" />
