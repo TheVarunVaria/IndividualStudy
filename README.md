@@ -32,7 +32,10 @@ We intended to produce a dynamic diagram since a static diagram would have been 
 <li> The chord diagram shows how each guideline is related to other guideline. Each guideline here is color coded in a file called “regionfish.csv”.
 <li> If you wish to focus on a particular guideline, just take your mouse on that guideline and focus will shifted to that particular guideline only.
 </ul>
+
 <img src="Images/3.png" width="50%" />
+
+
 ### Understanding quantitative relation amongst guidelines:
 <ul>
 <li> When the chord diagram is plotted, you can see the score or the ranking of these guidelines by simply taking your mouse to the chord.
