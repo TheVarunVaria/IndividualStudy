@@ -41,25 +41,41 @@ We intended to produce a dynamic diagram since a static diagram would have been 
 <li> When the chord diagram is plotted, you can see the score or the ranking of these guidelines by simply taking your mouse to the chord.
 <li> For e.g., let’s just say you are interested in #19892750 guideline, you can simply take your mouse on the orange area (color code for #19892750 guideline) you can see how the ranks of these guidelines are represented. Here you can clearly see that 27819383 and our guideline has a thicker chord as compared to other chords. 
 <li> If you wish to see how much the value of the chord is, you can simply take your mouse on the chord and the number will be displayed. Of course, every guideline has biggest similarity with itself which is why there will always be a self-chord with largest thickness
-</ul> 
+</ul>
+
+
 <img src="Images/4.png" width="50%" />
+
+
 ### Highlight a guideline to display its full name:
 <ul>
 <li> We know it is difficult to understand what the guideline is just by looking at its number which is why if you take your mouse over to the guidelines number on the right panel, you would be able to see the full name of the medical guideline.
 
 <li>Obvious reason for giving medical guideline number instead of the name is to fit the data on the chord diagram.
 </ul>
-<img src="Images/5.png" width="50%" />	
+
+
+<img src="Images/5.png" width="50%" />
+
+
 ### Quick access to the medical guideline:
 o	If you wish to access the medical guideline and know more about the guideline, just click on the guideline number on the right panel.
 o	What this will do is it will direct you to the XXX page with the guideline that you are interested in and have full availability of the guideline.
+
+
 <img src="Images/6.png" width="50%" />
 <img src="Images/7.png" width="50%" />
+
+
 ## Limitations of the Chord Diagram:
 
 ### Too many chords for cardio
 o	Understanding the diagram, with so many chords becomes a difficult task. We are interested in understanding which guideline has a thicker chord to the other guideline but with 21x21 guidelines with each guideline having a chord to every other guideline, it becomes difficult to interpret the diagram.
+
+
 <img src="Images/8.png" width="50%" />
+
+
 ### Little complicated to understand
 o	Since Chord diagram is supposed to display two-way information, i.e. Distance from guideline A to B and B to A, we cannot really get a clear idea of which guidelines are similar to other guidelines.
 
