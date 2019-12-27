@@ -89,7 +89,11 @@ We avoided bar charts because they seemed common and boring. We later realized o
 
 <li>We proposed to add a hyperlink which displays the distance of one guideline to all the other guidelines. Using bar-chart, you can easily understand and interpret the story.
 </ul>
+
+
 <img src="Images/9.png" width="50%" />
+
+
 ## How Chord diagram and Bar chart work hand in hand:
 
 Using the chord diagram, user can get brief idea of which guidelines has more similarity or has thicker chord to other guidelines. Then, user can click on the link next to that guideline and see how the bar chart is displayed for this particular guideline. Using bar chart, user can interpret which guidelines are similar to the selected guideline and view the bar chart for the new guidelines and compare the results.
@@ -99,22 +103,35 @@ Without Chord diagram user would need to go through 21 bar charts to view the re
 ### Features of the updated Chord diagram:
 <ul>
 <li> This chord diagram shows a bar chart link next to each guideline. This link opens up a bar chart view for each guideline in a new tab.
+
+
 <img src="Images/10.png" width="50%" />
 
+
 <li> Additional to all the previous features, what this does is gives a preview to the bar chart when you hover your mouse over the link of the bar chart. How this can help is user can preview the minute details as to which guideline is closest to the selected guideline apart from the selected guideline.
+
+
 <img src="Images/11.png" width="50%" />
+
+
 </ul>
 
 ### Bar-chart features:
 <ul>
 <li>As mentioned, the purpose of bar-chart is to put our analysis in the simplest form possible to help the user interpret the results. On X-axis, are the guidelines, while on the Y-axis, there is percentage cosine similarity, with maximum similarity of each document with itself at 100%.
+	
+	
 <img src="Images/12.png" width="50%" />
+
+
 <li>	Additional important feature of this bar-chart is that it shows the score in-side the bar. This conceptually and numerically represents the similarity amongst the guidelines.
 
 <li>Another feature to this bar-chart is to compare measurably how high is the similarity of a particular guideline to other guidelines. For this comparison, a dashed-line is plotted with reference to selected guideline and the numbers in the bar change. The new number now shows, how high is the distance.
 </ul>
 
 <img src="Images/13.png" width="50%" />
+
+
 ## Visualizing using Tableau:
 
 Dashboards are one of the most common use cases for data visualization, and their design and contexts of use are considerably different from exploratory visualization tools. With drag -and-drop feature, Tableau promotes not only an intuitive flow, but also rapid and flexible cohort analysis. For example, with just a few calculated fields and some drag-and-drop operations, you can create a dashboard that shows similarity of the guidelines using the simplest to understand bar-charts and enables an important aspect of selecting which guideline to choose for comparison.
