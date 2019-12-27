@@ -37,9 +37,12 @@ We intended to produce a dynamic diagram since a static diagram would have been 
 </ul> 
 
 ### Highlight a guideline to display its full name:
-o	We know it is difficult to understand what the guideline is just by looking at its number which is why if you take your mouse over to the guidelines number on the right panel, you would be able to see the full name of the medical guideline.
-o	Obvious reason for giving medical guideline number instead of the name is to fit the data on the chord diagram.
+<ul>
+<li> We know it is difficult to understand what the guideline is just by looking at its number which is why if you take your mouse over to the guidelines number on the right panel, you would be able to see the full name of the medical guideline.
 
+<li>Obvious reason for giving medical guideline number instead of the name is to fit the data on the chord diagram.
+</ul>
+	
 ### Quick access to the medical guideline:
 o	If you wish to access the medical guideline and know more about the guideline, just click on the guideline number on the right panel.
 o	What this will do is it will direct you to the XXX page with the guideline that you are interested in and have full availability of the guideline.
