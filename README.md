@@ -20,6 +20,8 @@ The visualization takes the matrix of guidelines as input and plots the connecti
 
 ## Motivation behind Chord diagram:
 We intended to produce a dynamic diagram since a static diagram would have been too messy particularly when the data to be represented is a lot. With the chord diagram being dynamic, user gets to be more interactive with the diagram and is able to extract more information from the visualization. The javascript file uses the two json files for plotting the data. Here we prepare the json file after scaling the data to understand the difference better. We have used the following formula to scale the data: 
+
+
 <img src="Images/1.png" width="50%" />
 
 ## Features of the chord diagram:
